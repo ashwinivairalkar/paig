@@ -1,0 +1,55 @@
+/* Smooth transition for card hover effect */
+.severity-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Card lifts and shadow appears */
+  .severity-card:hover {
+    transform: translateY(-5px); /* Lifts the card slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer; /* Change the cursor to a pointer to indicate clickability */
+  }
+  
+  /* For dark mode theme */
+  [data-theme='dark'] .severity-card:hover {
+    box-shadow: none; /* No shadow in dark theme */
+  }
+  
+  /* Different border colors for different severities */
+  .card-critical {
+    border-left: 5px solid #ff1744; /* Red border for critical severity */
+  }
+  
+  .card-high {
+    border-left: 5px solid #ff9100; /* Orange border for high severity */
+  }
+  
+  .card-medium {
+    border-left: 5px solid #ffc400; /* Yellow border for medium severity */
+  }
+  
+  .card-low {
+    border-left: 5px solid #00e676; /* Green border for low severity */
+  }
+  
+  /* Optional: Added styles for fallback if data is not loaded yet */
+  .loading-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  /* If the .severity-card is missing content */
+  .severity-card .empty-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    color: #888;
+  }
+  

@@ -17,7 +17,7 @@ module.exports = {
   host: '0.0.0.0', //'localhost',
   port: process.env.PORT || 9090,
   accountId: '',
-  target: 'host:port',
+  target: 'http://127.0.0.1:4545',
   auth: 'user:password',
-  cookie: 'key=value'
+  cookie: 'PRIVACERAPAIGSESSION=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTczOTUyOTQwMX0.zVCQInPFy-L1Om93pfDUSwnXgBSXh_Zt9yUbd0ywjzI'
 };

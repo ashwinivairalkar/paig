@@ -1,0 +1,24 @@
+/* .report-header */
+.report-header {
+    padding: 24px; /* Equivalent to theme.spacing(3) in MUI v4 */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dark theme specific styles for .report-header */
+  [data-theme='dark'] .report-header {
+    box-shadow: none;
+  }
+  
+  /* .report-details: Flex container */
+  .report-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; /* Equivalent to theme.spacing(1.5) in MUI v4 */
+  }
+  
+  /* MUI Chip custom styles */
+  .report-details .MuiChip-root {
+    font-size: 0.875rem; /* Equivalent to 14px */
+  }
+  
