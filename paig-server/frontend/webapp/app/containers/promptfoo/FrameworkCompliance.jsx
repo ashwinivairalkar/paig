@@ -17,14 +17,14 @@ import CancelIcon from '@material-ui/icons/Cancel';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-/*import {
+import {
   ALIASED_PLUGIN_MAPPINGS,
   categoryAliases,
   displayNameOverrides,
   FRAMEWORK_NAMES,
   FRAMEWORK_COMPLIANCE_IDS,
-} from '@promptfoo/redteam/constants';*/
-//import { useReportStore } from './store';
+} from './constants';
+import { useReportStore } from './store';
 import './FrameworkCompliance.css';
 
 const useStyles = makeStyles((theme) => ({

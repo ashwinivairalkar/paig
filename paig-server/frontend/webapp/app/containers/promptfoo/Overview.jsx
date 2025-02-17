@@ -2,10 +2,10 @@ import React from 'react';
 import { Box, Card, CardContent, Typography, Grid } from '@material-ui/core'; // Correct imports for MUI v4
 import { makeStyles } from '@material-ui/core/styles';
 // Uncomment these imports if needed
-// import { Severity, severityDisplayNames } from '@promptfoo/redteam/constants';
-// import { getRiskCategorySeverityMap } from '@promptfoo/redteam/sharedFrontend';
+import { Severity, severityDisplayNames } from './constants';
+import { getRiskCategorySeverityMap } from './sharedFrontend';
 // import { useReportStore } from './store';
-// import './Overview.css'; // Assuming you will use custom CSS, make sure it's correct
+import './Overview.css'; // Assuming you will use custom CSS, make sure it's correct
 
 const useStyles = makeStyles((theme) => ({
   severityCard: {

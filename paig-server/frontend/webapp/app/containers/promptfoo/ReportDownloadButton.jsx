@@ -5,10 +5,10 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-//import { Severity, severityDisplayNames } from '@promptfoo/redteam/constants';
-//import { getRiskCategorySeverityMap } from '@promptfoo/redteam/sharedFrontend';
+import { Severity, severityDisplayNames } from './constants';
+import { getRiskCategorySeverityMap } from './sharedFrontend';
 //import { useReportStore } from './store';
-//import './Overview.css';
+import './Overview.css';
 
 const useStyles = makeStyles((theme) => ({
   severityCard: {
