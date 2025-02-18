@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { Severity, severityDisplayNames } from './constants';
 import { getRiskCategorySeverityMap } from './sharedFrontend';
-//import { useReportStore } from './store';
+import { useReportStore } from './store';
 import './Overview.css';
 
 const useStyles = makeStyles((theme) => ({

@@ -15,9 +15,9 @@ module.exports = {
   cssFolder: 'static/styles/css',
   jsFolder: 'static/js',
   host: '0.0.0.0', //'localhost',
-  port: process.env.PORT || 9090,
+  port: process.env.PORT || 9091,
   accountId: '',
   target: 'http://127.0.0.1:4545',
   auth: 'user:password',
-  cookie: 'PRIVACERAPAIGSESSION=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTczOTUyOTQwMX0.zVCQInPFy-L1Om93pfDUSwnXgBSXh_Zt9yUbd0ywjzI'
+  cookie: 'PRIVACERAPAIGSESSION=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImV4cCI6MTczOTk0ODIyMH0.RsLqj2MfRWuqKBcNkYOzNmFz2D26AcW5E0Dzeotnvj0'
 };

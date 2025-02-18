@@ -1,14 +1,7 @@
-import { useState, useEffect } from 'react';
-
-// Mock implementation of useApiConfig for MUI v4
-// You might be using a store (like Redux or Zustand), so adjust this based on your setup
-const useApiConfig = () => {
-  // This should be replaced with your actual API config fetching logic
-  return { apiBaseUrl: 'https://your-api-base-url.com' }; // Mocked apiBaseUrl
-};
+import useApiConfig from './apiConfig';
 
 export async function callApi(path, options = {}) {
-  const { apiBaseUrl } = useApiConfig(); // Adjusted to call useApiConfig hook correctly
+  const { apiBaseUrl } = useApiConfig.getState();
   return fetch(`${apiBaseUrl}/api${path}`, options);
 }
 

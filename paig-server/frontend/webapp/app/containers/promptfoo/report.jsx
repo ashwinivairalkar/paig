@@ -1,32 +1,3 @@
-import React, { useEffect, useMemo, useState } from 'react';
-//import { callApi } from '@app/utils/api';change import below
-import { callApi } from './api'; 
-import WarningIcon from '@material-ui/icons/Warning'; // Update icon import for MUI v4//
-import Box from '@material-ui/core/Box'; // Change MUI imports for v4
-import Card from '@material-ui/core/Card';
-import Chip from '@material-ui/core/Chip';
-import Container from '@material-ui/core/Container';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Modal from '@material-ui/core/Modal';
-import Paper from '@material-ui/core/Paper';
-//import Stack from '@material-ui/core/Stack';//not needed because it is muv5 componment 
-import Tooltip from '@material-ui/core/Tooltip';
-import Typography from '@material-ui/core/Typography';
-import { categoryAliasesReverse } from './constants';
-//import { isProviderOptions, ResultFailureReason } from '@promptfoo/types';
-import { convertResultsToTable } from './convertEvalResultsToTable';
-//import FrameworkCompliance from './FrameworkCompliance';
-import Overview from './Overview';
-import ReportDownloadButton from './ReportDownloadButton';
-import ReportSettingsDialogButton from './ReportSettingsDialogButton';
-import RiskCategories from './RiskCategories';
-import StrategyStats from './StrategyStats';
-import TestSuites from './TestSuites';
-import ToolsDialog from './ToolsDialog';
-import { getPluginIdFromResult, getStrategyIdFromMetric } from './shared';
-import './Report.css';
 
 const App = () => {
   const [evalId, setEvalId] = useState(null);
@@ -34,8 +5,9 @@ const App = () => {
   const [selectedPromptIndex, setSelectedPromptIndex] = useState(0);
   const [isPromptModalOpen, setIsPromptModalOpen] = useState(false);
   const [isToolsDialogOpen, setIsToolsDialogOpen] = useState(false);
+  
 
-  const searchParams = new URLSearchParams(window.location.search);
+  /*const searchParams = new URLSearchParams(window.location.search);
 
   useEffect(() => {
     const fetchEvalById = async (id) => {
@@ -44,7 +16,7 @@ const App = () => {
       setEvalData(body.data);
     };
 
-    const evalId = searchParams.get('evalId');
+     //evalId = searchParams.get('evalId');
     if (evalId) {
       setEvalId(evalId);
       fetchEvalById(evalId);
@@ -74,12 +46,12 @@ const App = () => {
     document.title = `Report: ${evalData?.config?.description || evalId || 'Red Team'} | promptfoo`;
   }, [evalData, evalId]);
 
-  if (!evalData || !evalId) {
+ /* if (!evalData || !evalId) {
     return <Box sx={{ width: '100%', textAlign: 'center' }}>Loading...</Box>;
-  }
+  }*/
 
   return (
-    <Container>
+    /*<Container>
       <Stack spacing={4} pb={8} pt={2}>
         <Card className="report-header">
           <Box sx={{ position: 'absolute', top: 8, right: 8, display: 'flex' }}>
@@ -110,7 +82,8 @@ const App = () => {
           plugins={evalData.config.redteam?.plugins || []}
         />
       </Stack>
-    </Container>
+    </Container>*/
+   <h1> hii</h1>
   );
 };
 
