@@ -1,7 +1,13 @@
 import sys
+import os
+
+# Add the 'src' directory to sys.path to recognize 'paig_securechat' as a module
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from paig_securechat.core.preprocess_config import normalize_path
+
 import yaml
 from functools import lru_cache
-import os
 import logging
 from core.utils import recursive_merge_dicts
 import re
@@ -24,7 +30,7 @@ def replace_pattern_with_env(yaml_str):
         env_var_name = match.group(1)
         # Check if the environment variable exists
         if env_var_name in os.environ:
-            return os.environ[env_var_name]
+            return normalize_path(os.environ[env_var_name])  # Normalize paths
         else:
             # If the environment variable doesn't exist, keep the original pattern
             return match.group(0)
@@ -49,7 +55,6 @@ def load_config_file():
 
     with open(default_config_file, 'r') as f:
         yaml_str = f.read()
-        # default_config = yaml.safe_load(f)
 
     # Perform search and replace with environment variables
     yaml_str_modified = replace_pattern_with_env(yaml_str)
