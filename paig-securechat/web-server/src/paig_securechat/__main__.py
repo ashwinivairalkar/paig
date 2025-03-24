@@ -2,6 +2,8 @@ import os, sys
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(ROOT_DIR)
 import click
+from fastapi import FastAPI, status
+
 import uvicorn
 from database_setup import create_or_update_tables
 from core.utils import set_up_standalone_mode
