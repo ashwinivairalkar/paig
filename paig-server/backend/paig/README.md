@@ -24,7 +24,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
-1. Clone the repository  on powershell
+ Clone the repository  on powershell
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
@@ -32,7 +32,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    cd paig/paig-server
    ```
-2. Change directory to the paig-server for powershell
+ Change directory to the paig-server for powershell
    ```bash
    cd paig/paig-server
    ```
@@ -41,7 +41,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    cd scripts
    source ./build_ui.sh
    ```
-3.  Run the script to build the web UI for pPowershell
+ Run the script to build the web UI for pPowershell
 
  if you are uising windows power shell then go to the windows git bash and go to the partculatr path and  run below command 
  ```bash
@@ -58,7 +58,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    cd backend
    ```
-4.  Go to the backend directory for Power shell
+  Go to the backend directory for Power shell
 
    ```bash
    cd backend
@@ -71,8 +71,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
     python3 -m venv venv
     ```
-5. Create a virtual environment for power shell
-   ```bash
+5Create a virtual environment for power shell
     ```bash
      python -m venv venv
     ```
@@ -80,7 +79,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```bash
     source venv/bin/activate
     ```
-6.  Activate the virtual environment on Powershell
+ Activate the virtual environment on Powershell
      ```bash
      .\venv\Scripts\Activate.ps1
     ```
@@ -88,7 +87,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```bash
     pip install -r requirements.txt
     ```
-7. 7. Install the dependencies on powershell
+ Install the dependencies on powershell
     ```bash
     pip install -r requirements.txt
     ```
@@ -96,7 +95,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```bash
     cd paig
     ```
-8. 8. Change directory to the paig.
+ Change directory to the paig.
     ```bash
     cd paig
     ```
