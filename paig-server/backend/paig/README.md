@@ -24,7 +24,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
- Clone the repository  on powershell
+ Clone the repository using PowerShell
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
@@ -32,7 +32,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    cd paig/paig-server
    ```
- Change directory to the paig-server for powershell
+ Change the directory to paig-server using PowerShell.
    ```bash
    cd paig/paig-server
    ```
@@ -41,16 +41,16 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    cd scripts
    source ./build_ui.sh
    ```
- Run the script to build the web UI for pPowershell
+ Run the script to build the web UI using PowerShell.
 
- if you are uising windows power shell then go to the windows git bash and go to the partculatr path and  run below command 
+If you are using Windows PowerShell, switch to Git Bash, navigate to the specific path, and run the following command:
  ```bash
 
     cd paig/paig-server/scripts
     dos2unix build_ui.sh
     cd ..
    ```
-   then come back to the powershell and run to install build 
+   Then, return to PowerShell and run the command to install the build.
 
    ```bash
     bash ./build_ui.sh
@@ -59,7 +59,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    cd backend
    ```
-  Go to the backend directory for Power shell
+ Go to the backend directory in PowerShell.
 
    ```bash
    cd backend
@@ -73,7 +73,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
     python3 -m venv venv
     ```
-    Create a virtual environment For PowerShell.
+    Create a virtual environment using PowerShell.
      ```bash
     python -m venv venv
     ```
@@ -82,7 +82,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```bash
     source venv/bin/activate
     ```
-    Activate the virtual environment For Powershell
+    Activate the virtual environment using PowerShell.
    
     ```bash
      .\venv\Scripts\Activate.ps1
@@ -91,7 +91,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```bash
     pip install -r requirements.txt
     ```
-    Install the dependenciesFor Powershell.
+    Install the dependencies using PowerShell.
     ```bash
     pip install -r requirements.txt
     ```
@@ -99,11 +99,11 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```bash
     cd paig
     ```
-    Change directory to the paig For Powershell.
+    Change the directory to paig using PowerShell.
     ```bash
     cd paig
     ```
-    Below Are same 
+    Below are the same:
 9. Run the web server.
    ```bash
    python __main__.py run --paig_deployment dev|prod --config_path <path to config folder> --host <host_ip> --port <port> --background <true|false>
