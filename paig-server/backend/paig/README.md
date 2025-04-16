@@ -37,14 +37,14 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```
    Run the script to build the web UI using PowerShell.
 
-   If you are using Windows PowerShell, switch to Git Bash, navigate to the specific path, and run the following command:
+   If you are using Windows,open Git Bash, navigate to the specific path, and run the following command:
    ```bash
 
    cd paig/paig-server/scripts
    dos2unix build_ui.sh
    cd ..
    ```
-   Then, return to PowerShell and run the command to install the build.
+   Then run the following command in PowerShell to install the build.
 
    ```bash
    cd scripts
@@ -71,12 +71,12 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    source venv/bin/activate
    ```
-   Activate the virtual environment using PowerShell.
+   If you are using Windows, run the following command in PowerShell to activate the virtual environment.
    
    ```bash
    .\venv\Scripts\Activate.ps1
    ```
-   For Windows Cmd
+   For Windows Command Prompt, use the following command
     ```bash
    venv\Scripts\activate
    ```
