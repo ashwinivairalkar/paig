@@ -51,7 +51,8 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     cd ..
    ```
    then come back to the powershell and run to install build 
-    ```bash
+
+   ```bash
     bash ./build_ui.sh
    ```
 4. Go to the backend directory.
@@ -71,7 +72,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
     python3 -m venv venv
     ```
-5Create a virtual environment for power shell
+Create a virtual environment for power shell
     ```bash
      python -m venv venv
     ```
