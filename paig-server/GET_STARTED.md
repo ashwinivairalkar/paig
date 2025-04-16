@@ -20,7 +20,21 @@
    ```bash
    cd paig/paig-server/scripts
    source ./build_ui.sh
-   ```
+   ``` For windows Power shell
+   Go to the terminal on git bash 
+   ```bash
+     cd paig/paig-server/scripts
+    ``` then run  
+   ```bash
+    dos2unix build_ui.sh
+    ``````come back to the power shell and run below comand to install build   
+   ```bash
+    bash ./build_ui.sh
+    ```
+     And
+   ```bash
+    cd ..
+    ```
 2. Create a virtual environment in the backend directory.
     ```bash
     cd ../backend
@@ -30,6 +44,11 @@
    ```bash
     cd ../backend
     python3 -m venv venv
+    ```
+    For windows power shell
+   ```bash
+    cd ../backend
+     python -m venv venv
     ```
 3. Activate the virtual environment.
 
@@ -42,6 +61,11 @@
     ```bash
     venv/Scripts/activate
     ```
+    
+   - On Windows Power shell
+    ```bash
+     .\venv\Scripts\Activate.ps1
+      ```
 4. Install the dependencies.
     ```bash
     pip install -r requirements.txt
