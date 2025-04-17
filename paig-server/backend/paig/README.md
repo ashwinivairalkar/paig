@@ -7,12 +7,15 @@
 - [How to Setup Database](#databsesetup)
 - [Logging](#logging)
 
+<details open>
+
 ## Technology Stack <a name="technology-stack"></a>
 PAIG provides a platform for AI governance. It allows users to governance and audits the data on one platform. 
 <br>PAIG uses the following technologies:
 * **Web Application Framework:** ReactJS
 * **Backend:** FastAPI (Python)
 * **Database:** Relational Database (default sqlite)
+</details>
 
 ## How to Start Development Server <a name="developmentserver"></a>
 ### Prerequisites
