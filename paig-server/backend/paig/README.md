@@ -7,8 +7,6 @@
 - [How to Setup Database](#databsesetup)
 - [Logging](#logging)
 
-<details >
-
 ## Technology Stack <a name="technology-stack"></a>
 PAIG provides a platform for AI governance. It allows users to governance and audits the data on one platform. 
 <br>PAIG uses the following technologies:
@@ -20,7 +18,6 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 ### Prerequisites
 * **Python:** >=3.10
 * **NodeJS:** =14.17.5
-</details>
 
 ### Steps to run the development web Server
 1. Clone the repository.
@@ -38,7 +35,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    cd scripts
    source ./build_ui.sh
    ```
-> [!NOTE]  
+> [!TIP]  
 > Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt.Follow these steps:
       
    ```bash
@@ -48,7 +45,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
       cd ..
    ```
 
-> [!NOTE]  
+> [!TIP]  
 > After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
    ```bash
@@ -77,13 +74,13 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-> [!NOTE]  
+> [!TIP]  
 > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
 
    ```bash
      .\venv\Scripts\Activate.ps1
    ```
-> [!NOTE]  
+> [!TIP]  
 >  For Windows Command Prompt, use the following command
    ```bash
    venv\Scripts\activate
