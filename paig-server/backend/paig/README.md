@@ -35,7 +35,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    cd scripts
    source ./build_ui.sh
    ```
-  We can't directly run a .sh file using PowerShell or Command Prompt on Windows. So, we need to use Git Bash to convert it first. After that, we can run it from PowerShell or Command Prompt. 
+   We can't directly run a .sh file using PowerShell or Command Prompt on Windows. So, we need to use Git Bash to convert it first. After that, we can run it from PowerShell or Command Prompt. 
 
    If you are using Windows,open Git Bash, navigate to the specific path, and run the following command:
    ```bash
@@ -109,28 +109,28 @@ PAIG can be run in the background mode by setting the background flag to true.
 
 1. To Start the PAIG in the background mode:
 ```bash
-python __main__.py run --background true
+   python __main__.py run --background true
 ```
 **Note:** Please use help command to see all available options you can pass on command line.
 ```bash
-python __main__.py --help
+   python __main__.py --help
 ```
 2. To Stop the PAIG Server:
 ```bash
-python __main__.py stop
+   python __main__.py stop
 ```
 3. To Check the status of the PAIG Server:
 ```bash
-python __main__.py status
+   python __main__.py status
 ```
 
 
-## Optional Configuration <a name="configuration"></a>
-PAIG provides overlay configuration. PAIG will use the default configuration provided in the [default_config.yaml](conf/default_config.yaml) file.
-This default configuration can be overridden by the user-provided custom configuration.
-The user can provide the custom configuration in the following ways:
-1. Create a new custom configuration file in the custom folder that is provided to the application.
-2. The naming convention for the custom configuration file should be as follows:
+  ## Optional Configuration <a name="configuration"></a>
+  PAIG provides overlay configuration. PAIG will use the default configuration provided in the [default_config.yaml](conf/default_config.yaml) file.
+  This default configuration can be overridden by the user-provided custom configuration.
+  The user can provide the custom configuration in the following ways:
+ 1. Create a new custom configuration file in the custom folder that is provided to the application.
+ 2. The naming convention for the custom configuration file should be as follows:
    ```bash
    <ENVIRONMENT_NAME>_config.yaml
    ```
@@ -139,12 +139,12 @@ The user can provide the custom configuration in the following ways:
    dev_config.yaml
    ```
    _Note-_ ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
-3. In a custom configuration file, the user should provide new configuration key values or override the existing configuration.
+ 3. In a custom configuration file, the user should provide new configuration key values or override the existing configuration.
 <br>Example: [custom-conf/dev_config.yaml](conf/default_config.yaml)
 
-## How to Setup Database <a name="databsesetup"></a>
-PAIG supports automatic as well as manual database creation/updation. Please refer to Database for more details.
-[How to setup database](alembic_db/README.md)
+ ## How to Setup Database <a name="databsesetup"></a>
+ PAIG supports automatic as well as manual database creation/updation. Please refer to Database for more details.
+ [How to setup database](alembic_db/README.md)
 
 ## Logging <a name="logging"></a>
 PAIG provides a way to configure logging configurations and level.
