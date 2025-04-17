@@ -47,7 +47,8 @@ Follow these steps:
       dos2unix build_ui.sh
       cd ..
       ```
-      > [!NOTE]  
+     
+ > [!NOTE]  
 > After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
       ```bash
