@@ -74,13 +74,13 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-> [!IMPORTANT]  
+> [!NOTE]  
 > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
 
    ```bash
      .\venv\Scripts\Activate.ps1
    ```
-> [!IMPORTANT]  
+> [!NOTE]  
 >  For Windows Command Prompt, use the following command
    ```bash
    venv\Scripts\activate
@@ -102,7 +102,9 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    python __main__.py run --paig_deployment dev --config_path conf --host "127.0.0.1" --port 4545 --background true
    ```
-   **Note:** *Admin user credentials.*
+> [!IMPORTANT]  
+>Admin user credentials.
+
    ```bash
    PAIG URL: http://127.0.0.1:4545
    username: admin
@@ -116,7 +118,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    python __main__.py run --background true
    ```
-> [!NOTE]  
+> [!IMPORTANT]  
 > Please use help command to see all available options you can pass on command line.
 
    ```bash
