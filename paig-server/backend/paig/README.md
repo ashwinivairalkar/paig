@@ -143,7 +143,9 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    dev_config.yaml
    ```
-   _Note-_ ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
+> [!NOTE]  
+> ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
+
 3. In a custom configuration file, the user should provide new configuration key values or override the existing         configuration.
    <br>Example: [custom-conf/dev_config.yaml](conf/default_config.yaml)
 
