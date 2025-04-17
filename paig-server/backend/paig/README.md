@@ -20,12 +20,15 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **NodeJS:** =14.17.5
 
 ### Steps to run the development web Server
-<details>
+<Clone the repository.>
 1. Clone the repository.
+```ruby
+   git clone git@github.com:privacera/paig.git
+```
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
-</details>
+</Clone the repository.>
 2. Change directory to the paig-server.
    ```bash
    cd paig/paig-server
