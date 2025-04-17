@@ -46,7 +46,8 @@ Follow these steps:
       dos2unix build_ui.sh
       cd ..
       ```
-      Then run the following command in PowerShell or Command Prompt to install the build.
+      > [!NOTE]  
+> After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
       ```bash
       cd scripts
