@@ -15,13 +15,12 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **Web Application Framework:** ReactJS
 * **Backend:** FastAPI (Python)
 * **Database:** Relational Database (default sqlite)
-</details>
 
 ## How to Start Development Server <a name="developmentserver"></a>
 ### Prerequisites
 * **Python:** >=3.10
 * **NodeJS:** =14.17.5
-
+</details>
 ### Steps to run the development web Server
 1. Clone the repository.
    ```bash
