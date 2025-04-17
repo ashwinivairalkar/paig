@@ -111,6 +111,8 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    password: welcome1
    ```
 
+</details>
+
 ## PAIG Server Background Mode <a name="backgroundmode"></a>
 PAIG can be run in the background mode by setting the background flag to true.
 
