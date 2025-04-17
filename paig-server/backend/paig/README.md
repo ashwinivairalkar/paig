@@ -43,8 +43,8 @@ PAIG provides a platform for AI governance. It allows users to governance and au
       dos2unix build_ui.sh
       cd ..
    ```
- > [!NOTE]  
- > After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
+> [!NOTE]  
+> After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
    ```bash
       cd scripts
