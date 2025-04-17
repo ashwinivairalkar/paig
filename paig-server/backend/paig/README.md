@@ -108,21 +108,21 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 PAIG can be run in the background mode by setting the background flag to true.
 
 1. To Start the PAIG in the background mode:
-```bash
+ ```bash
    python __main__.py run --background true
-```
+ ```
 **Note:** Please use help command to see all available options you can pass on command line.
-```bash
+ ```bash
    python __main__.py --help
-```
+ ```
 2. To Stop the PAIG Server:
-```bash
+ ```bash
    python __main__.py stop
-```
+ ```
 3. To Check the status of the PAIG Server:
-```bash
+ ```bash
    python __main__.py status
-```
+ ```
 
 
   ## Optional Configuration <a name="configuration"></a>
