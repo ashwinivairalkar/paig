@@ -83,9 +83,10 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    venv\Scripts\activate
    ```
    </details> <details> <summary>🪟 <strong>Windows PowerShell</strong></summary>
-     ```bash
+   ```bash
      .\venv\Scripts\Activate.ps1
-     ```
+   ```
+     </details>
 7. Install the dependencies.
    ```bash
    pip install -r requirements.txt
