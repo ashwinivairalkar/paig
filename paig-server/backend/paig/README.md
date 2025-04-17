@@ -7,6 +7,8 @@
 - [How to Setup Database](#databsesetup)
 - [Logging](#logging)
 
+<details >
+
 ## Technology Stack <a name="technology-stack"></a>
 PAIG provides a platform for AI governance. It allows users to governance and audits the data on one platform. 
 <br>PAIG uses the following technologies:
@@ -18,6 +20,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 ### Prerequisites
 * **Python:** >=3.10
 * **NodeJS:** =14.17.5
+</details>
 
 ### Steps to run the development web Server
 1. Clone the repository.
@@ -74,7 +77,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-> [!TIP]  
+> [!NOTE]  
 > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
 
    ```bash
@@ -160,8 +163,3 @@ PAIG can be run in the background mode by setting the background flag to true.
 ## Logging <a name="logging"></a>
    PAIG provides a way to configure logging configurations and level.
    You can edit [logging configuration](conf/logging.ini) to customize logging for PAIG.
-<details>
-  <summary>🪟 Windows PowerShell</summary>
-
-  ```powershell
-  .\venv\Scripts\Activate.ps1
