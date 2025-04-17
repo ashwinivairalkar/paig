@@ -23,7 +23,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 <details>
   <summary><strong>1. Clone the Repository</strong></summary>
 
-  <pre><code>bash
+  <pre><code>
 git clone git@github.com:privacera/paig.git
   </code></pre>
 
