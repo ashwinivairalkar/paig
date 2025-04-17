@@ -20,20 +20,17 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **NodeJS:** =14.17.5
 
 ### Steps to run the development web Server
-<details>
-  <summary><strong>1. Clone the Repository</strong></summary>
+1. Clone the repository.
+   ```bash
+   git clone git@github.com:privacera/paig.git
+   ```
 
-  <pre><code>
-git clone git@github.com:privacera/paig.git
-  </code></pre>
-
-</details>
- </details> <details> <summary><strong>2. Navigate to the Server Directory</strong></summary>
+2. Change directory to the paig-server.
    ```bash
    cd paig/paig-server
    ```
   
- </details> <details> <summary><strong>3. Build the Web UI</strong></summary>
+3. Run the script to build the web UI.
    ```bash
    cd scripts
    source ./build_ui.sh
@@ -56,13 +53,13 @@ git clone git@github.com:privacera/paig.git
       bash ./build_ui.sh
       cd ..
    ```
-</details> <details> <summary><strong>4. Navigate to Backend Directory</strong></summary>
+4. Go to the backend directory.
    ```bash
    cd backend
    ```
   
 
-</details> <details> <summary><strong>5. Create a Virtual Environment</strong></summary>
+5. Create a virtual environment.
     ```bash
    python -m venv venv
     ```
@@ -72,7 +69,7 @@ git clone git@github.com:privacera/paig.git
     ```
 
 
-</details> <details> <summary><strong>6. Activate the Virtual Environment</strong></summary>
+6. Activate the virtual environment.
    ```bash
    source venv/bin/activate
    ```
@@ -88,16 +85,16 @@ git clone git@github.com:privacera/paig.git
    ```bash
    venv\Scripts\activate
    ```   
-</details> <details> <summary><strong>7. Install the Dependencies</strong></summary>
+7. Install the dependencies.
    ```bash
    pip install -r requirements.txt
    ```
   
-</details> <details> <summary><strong>8. Navigate to the PAIG Module</strong></summary>
+8. Change directory to the paig.
    ```bash
    cd paig
    ```
-</details> <details> <summary><strong>9. Run the Web Server</strong></summary>
+9. Run the web server.
    ```bash
    python __main__.py run --paig_deployment dev|prod --config_path <path to config folder> --host <host_ip> --port <port> --background <true|false>
    ```
@@ -113,8 +110,6 @@ git clone git@github.com:privacera/paig.git
    username: admin
    password: welcome1
    ```
-
-</details>
 
 ## PAIG Server Background Mode <a name="backgroundmode"></a>
 PAIG can be run in the background mode by setting the background flag to true.
@@ -165,3 +160,8 @@ PAIG can be run in the background mode by setting the background flag to true.
 ## Logging <a name="logging"></a>
    PAIG provides a way to configure logging configurations and level.
    You can edit [logging configuration](conf/logging.ini) to customize logging for PAIG.
+<details>
+  <summary>🪟 Windows PowerShell</summary>
+
+  ```powershell
+  .\venv\Scripts\Activate.ps1
