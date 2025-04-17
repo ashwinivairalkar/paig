@@ -7,7 +7,7 @@
 - [How to Setup Database](#databsesetup)
 - [Logging](#logging)
 
-<details open>
+<details >
 
 ## Technology Stack <a name="technology-stack"></a>
 PAIG provides a platform for AI governance. It allows users to governance and audits the data on one platform. 
