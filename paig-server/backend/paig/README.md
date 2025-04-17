@@ -20,7 +20,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **NodeJS:** =14.17.5
 
 ### Steps to run the development web Server
-1. Clone the repository.
+1. <details> <summary><strong>1. Clone the Repository</strong></summary>
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
@@ -165,4 +165,3 @@ PAIG can be run in the background mode by setting the background flag to true.
 
   ```powershell
   .\venv\Scripts\Activate.ps1
-</details> ```
