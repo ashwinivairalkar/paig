@@ -104,8 +104,8 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    password: welcome1
    ```
 
-## PAIG Server Background Mode <a name="backgroundmode"></a>
-PAIG can be run in the background mode by setting the background flag to true.
+   ## PAIG Server Background Mode <a name="backgroundmode"></a>
+   PAIG can be run in the background mode by setting the background flag to true.
 
 1. To Start the PAIG in the background mode:
    ```bash
