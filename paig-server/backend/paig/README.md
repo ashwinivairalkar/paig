@@ -20,17 +20,17 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **NodeJS:** =14.17.5
 
 ### Steps to run the development web Server
-1. <details> <summary><strong>1. Clone the Repository</strong></summary>
+ <details> <summary><strong>1. Clone the Repository</strong></summary>
    ```bash
    git clone git@github.com:privacera/paig.git
    ```
 
-2. Change directory to the paig-server.
+ </details> <details> <summary><strong>2. Navigate to the Server Directory</strong></summary>
    ```bash
    cd paig/paig-server
    ```
   
-3. Run the script to build the web UI.
+ </details> <details> <summary><strong>3. Build the Web UI</strong></summary>
    ```bash
    cd scripts
    source ./build_ui.sh
@@ -53,13 +53,13 @@ PAIG provides a platform for AI governance. It allows users to governance and au
       bash ./build_ui.sh
       cd ..
    ```
-4. Go to the backend directory.
+</details> <details> <summary><strong>4. Navigate to Backend Directory</strong></summary>
    ```bash
    cd backend
    ```
   
 
-5. Create a virtual environment.
+</details> <details> <summary><strong>5. Create a Virtual Environment</strong></summary>
     ```bash
    python -m venv venv
     ```
@@ -69,7 +69,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
     ```
 
 
-6. Activate the virtual environment.
+</details> <details> <summary><strong>6. Activate the Virtual Environment</strong></summary>
    ```bash
    source venv/bin/activate
    ```
@@ -85,16 +85,16 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    venv\Scripts\activate
    ```   
-7. Install the dependencies.
+</details> <details> <summary><strong>7. Install the Dependencies</strong></summary>
    ```bash
    pip install -r requirements.txt
    ```
   
-8. Change directory to the paig.
+</details> <details> <summary><strong>8. Navigate to the PAIG Module</strong></summary>
    ```bash
    cd paig
    ```
-9. Run the web server.
+</details> <details> <summary><strong>9. Run the Web Server</strong></summary>
    ```bash
    python __main__.py run --paig_deployment dev|prod --config_path <path to config folder> --host <host_ip> --port <port> --background <true|false>
    ```
