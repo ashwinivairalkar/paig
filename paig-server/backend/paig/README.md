@@ -116,7 +116,9 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    python __main__.py run --background true
    ```
-   **Note:** Please use help command to see all available options you can pass on command line.
+> [!NOTE]  
+> Please use help command to see all available options you can pass on command line.
+
    ```bash
    python __main__.py --help
    ```
