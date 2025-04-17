@@ -125,7 +125,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```
 
 
-   ## Optional Configuration <a name="configuration"></a>
+## Optional Configuration <a name="configuration"></a>
    PAIG provides overlay configuration. PAIG will use the default configuration provided in the [default_config.yaml](conf/default_config.yaml) file.
    This default configuration can be overridden by the user-provided custom configuration.
    The user can provide the custom configuration in the following ways:
@@ -142,10 +142,10 @@ PAIG can be run in the background mode by setting the background flag to true.
 3. In a custom configuration file, the user should provide new configuration key values or override the existing         configuration.
    <br>Example: [custom-conf/dev_config.yaml](conf/default_config.yaml)
 
-   ## How to Setup Database <a name="databsesetup"></a>
+## How to Setup Database <a name="databsesetup"></a>
    PAIG supports automatic as well as manual database creation/updation. Please refer to Database for more details.
    [How to setup database](alembic_db/README.md)
 
-   ## Logging <a name="logging"></a>
+## Logging <a name="logging"></a>
    PAIG provides a way to configure logging configurations and level.
    You can edit [logging configuration](conf/logging.ini) to customize logging for PAIG.
