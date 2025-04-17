@@ -34,11 +34,12 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    cd scripts
    source ./build_ui.sh
-   ```
-     [!NOTE]
-On Windows, .sh scripts can't be executed directly in PowerShell or Command Prompt.
+   ```> [!TIP]
+> Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt.
 
-<details> <summary>💡 Windows Tip: Running <code>build_ui.sh</code></summary>
+Follow these steps:
+
+      
       ```bash
 
       cd paig/paig-server/scripts
