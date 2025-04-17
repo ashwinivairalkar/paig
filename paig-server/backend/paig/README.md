@@ -106,11 +106,11 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    > [!IMPORTANT]  
    >Admin user credentials.
 
-   ```bash
-   PAIG URL: http://127.0.0.1:4545
-   username: admin
-   password: welcome1
-   ```
+      ```bash
+      PAIG URL: http://127.0.0.1:4545
+      username: admin
+      password: welcome1
+      ```
 
 ## PAIG Server Background Mode <a name="backgroundmode"></a>
 PAIG can be run in the background mode by setting the background flag to true.
