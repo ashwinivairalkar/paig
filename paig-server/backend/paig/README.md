@@ -41,14 +41,13 @@ On Windows, .sh scripts can't be executed directly in PowerShell or Command Prom
 
 <details> <summary>💡 Windows Tip: Running <code>build_ui.sh</code></summary>
 Use Git Bash to run the script:
-
-bash
-Copy
-Edit
+ ```bash
+   
 cd paig/paig-server/scripts
 dos2unix build_ui.sh
-bash ./build_ui.sh
-</details>
+cd ..
+   ```
+
   
 
 5. Create a virtual environment.
