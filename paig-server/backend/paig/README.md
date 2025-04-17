@@ -160,3 +160,9 @@ PAIG can be run in the background mode by setting the background flag to true.
 ## Logging <a name="logging"></a>
    PAIG provides a way to configure logging configurations and level.
    You can edit [logging configuration](conf/logging.ini) to customize logging for PAIG.
+<details>
+  <summary>🪟 Windows PowerShell</summary>
+
+  ```powershell
+  .\venv\Scripts\Activate.ps1
+</details> ```
