@@ -122,9 +122,9 @@ PAIG can be run in the background mode by setting the background flag to true.
    > [!IMPORTANT]  
    > Please use help command to see all available options you can pass on command line.
 
-   ```bash
-   python __main__.py --help
-   ```
+      ```bash
+      python __main__.py --help
+      ```
 2. To Stop the PAIG Server:
    ```bash
    python __main__.py stop
