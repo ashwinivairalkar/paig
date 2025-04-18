@@ -75,14 +75,13 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    >**TIP**
    > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
 
-   ```bash
-    .\venv\Scripts\Activate.ps1
-   ```
-   >**TIP**
+   >```bash
+   > .\venv\Scripts\Activate.ps1
+   >```
    >  For Windows Command Prompt, use the following command
-   ```bash
-   venv\Scripts\activate
-   ```   
+   >```bash
+   >venv\Scripts\activate
+   >```   
 7. Install the dependencies.
    ```bash
    pip install -r requirements.txt
@@ -145,7 +144,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    dev_config.yaml
    ```
-   >**NOTE** 
+   >**NOTE:** 
    > ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
 
 3. In a custom configuration file, the user should provide new configuration key values or override the existing         configuration.
