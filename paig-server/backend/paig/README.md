@@ -21,39 +21,39 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **NodeJS:** =14.17.5
 
 ### Steps to run the development web Server
-1. Clone the repository.
-   ```bash
-   git clone git@github.com:privacera/paig.git
-   ```
+   1. Clone the repository.
+         ```bash
+         git clone git@github.com:privacera/paig.git
+         ```
 
-2. Change directory to the paig-server.
-   ```bash
-   cd paig/paig-server
-   ```
+      2. Change directory to the paig-server.
+         ```bash
+         cd paig/paig-server
+         ```
   
-3. Run the script to build the web UI.
-   ```bash
-   cd scripts
-   source ./build_ui.sh
-   ```
-   > [!TIP]  
-   > Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt.Follow these steps:
+   3. Run the script to build the web UI.
+         ```bash
+         cd scripts
+         source ./build_ui.sh
+         ```
+       >[!TIP]  
+       >Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt.Follow these steps:
       
-   ```bash
+       ```bash
 
-      cd paig/paig-server/scripts
-      dos2unix build_ui.sh
-      cd ..
-   ```
+         cd paig/paig-server/scripts
+         dos2unix build_ui.sh
+         cd ..
+       ```
 
-   > [!TIP]  
-   > After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
+       >[!TIP]  
+       >After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
-      ```bash
-      cd scripts
-      bash ./build_ui.sh
-      cd ..
-      ```
+         ```bash
+         cd scripts
+         bash ./build_ui.sh
+         cd ..
+         ```
 4. Go to the backend directory.
    ```bash
    cd backend
