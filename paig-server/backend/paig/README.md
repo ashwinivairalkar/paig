@@ -21,39 +21,39 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 * **NodeJS:** =14.17.5
 
 ### Steps to run the development web Server
-   1. Clone the repository.
-         ```bash
-         git clone git@github.com:privacera/paig.git
-         ```
+1. Clone the repository.
+   ```bash
+   git clone git@github.com:privacera/paig.git
+   ```
 
-      2. Change directory to the paig-server.
-         ```bash
-         cd paig/paig-server
-         ```
+2. Change directory to the paig-server.
+   ```bash
+   cd paig/paig-server
+   ```
   
-   3. Run the script to build the web UI.
-         ```bash
-         cd scripts
-         source ./build_ui.sh
-         ```
-       >[!TIP]  
-       >Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt.Follow these steps:
+3. Run the script to build the web UI.
+   ```bash
+   cd scripts
+   source ./build_ui.sh
+   ```
+ > [!TIP]  
+ > Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt. Follow these steps:
       
-       ```bash
+   ```bash
 
-         cd paig/paig-server/scripts
-         dos2unix build_ui.sh
-         cd ..
-       ```
+      cd paig/paig-server/scripts
+      dos2unix build_ui.sh
+      cd ..
+   ```
 
-       >[!TIP]  
-       >After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
+> [!TIP]  
+> After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
-         ```bash
-         cd scripts
-         bash ./build_ui.sh
-         cd ..
-         ```
+   ```bash
+      cd scripts
+      bash ./build_ui.sh
+      cd ..
+   ```
 4. Go to the backend directory.
    ```bash
    cd backend
@@ -75,14 +75,14 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-   > [!TIP]  
-   > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
+> [!TIP]  
+> If you are using Windows, run the following command in PowerShell to activate the virtual environment.
 
-      ```bash
-      .\venv\Scripts\Activate.ps1
-      ```
-   > [!TIP]  
-   >  For Windows Command Prompt, use the following command
+   ```bash
+     .\venv\Scripts\Activate.ps1
+   ```
+> [!TIP]  
+>  For Windows Command Prompt, use the following command
    ```bash
    venv\Scripts\activate
    ```   
@@ -103,14 +103,14 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    python __main__.py run --paig_deployment dev --config_path conf --host "127.0.0.1" --port 4545 --background true
    ```
-   > [!IMPORTANT]  
-   >Admin user credentials.
+> [!IMPORTANT]  
+>Admin user credentials.
 
-      ```bash
-      PAIG URL: http://127.0.0.1:4545
-      username: admin
-      password: welcome1
-      ```
+   ```bash
+   PAIG URL: http://127.0.0.1:4545
+   username: admin
+   password: welcome1
+   ```
 
 ## PAIG Server Background Mode <a name="backgroundmode"></a>
 PAIG can be run in the background mode by setting the background flag to true.
@@ -119,12 +119,12 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    python __main__.py run --background true
    ```
-   > [!IMPORTANT]  
-   > Please use help command to see all available options you can pass on command line.
+> [!IMPORTANT]  
+> Please use help command to see all available options you can pass on command line.
 
-      ```bash
-      python __main__.py --help
-      ```
+   ```bash
+   python __main__.py --help
+   ```
 2. To Stop the PAIG Server:
    ```bash
    python __main__.py stop
@@ -148,8 +148,8 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    dev_config.yaml
    ```
-   > [!NOTE]  
-   > ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
+ > [!NOTE]  
+ > ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
 
 3. In a custom configuration file, the user should provide new configuration key values or override the existing         configuration.
    <br>Example: [custom-conf/dev_config.yaml](conf/default_config.yaml)
