@@ -46,14 +46,14 @@ PAIG provides a platform for AI governance. It allows users to governance and au
       cd ..
    ```
 
-> [!TIP]  
-> After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
+   > [!TIP]  
+   > After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
-   ```bash
+      ```bash
       cd scripts
       bash ./build_ui.sh
       cd ..
-   ```
+      ```
 4. Go to the backend directory.
    ```bash
    cd backend
