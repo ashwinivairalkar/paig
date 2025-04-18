@@ -36,7 +36,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    cd scripts
    source ./build_ui.sh
    ```
-   > 💡 **Tip:**  
+   > **Tip:**  
    > Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git Bash to convert the script, and then you can run it from PowerShell or Command Prompt. Follow these steps:
    ```bash
 
@@ -45,7 +45,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
       cd ..
    ```
 
-   > [!TIP]  
+   >**TIP** 
    > After conversion, open PowerShell or Command Prompt, navigate to the script directory, and execute the build with this command:
 
    ```bash
@@ -74,7 +74,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-   > [!TIP]  
+   >**TIP**
    > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
 
    ```bash
@@ -102,14 +102,14 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    python __main__.py run --paig_deployment dev --config_path conf --host "127.0.0.1" --port 4545 --background true
    ```
-   > [!IMPORTANT]  
+   >**IMPORTANT** 
    >Admin user credentials.
 
-   ```bash
-   PAIG URL: http://127.0.0.1:4545
-   username: admin
-   password: welcome1
-   ```
+   >```bash
+   >PAIG URL: http://127.0.0.1:4545
+   >username: admin
+   >password: welcome1
+   >```
 
 ## PAIG Server Background Mode <a name="backgroundmode"></a>
 PAIG can be run in the background mode by setting the background flag to true.
