@@ -37,7 +37,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source ./build_ui.sh
    ```
    > **Tip:**  
-   > Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git >Bash to convert the script, and then you can run it from PowerShell or Command Prompt. Follow these steps:
+   > Windows does not allow direct execution of .sh files in PowerShell or Command Prompt. To work around this, use Git  Bash to convert the script, and then you can run it from PowerShell or Command Prompt. Follow these steps:
    >```bash
    >  cd paig/paig-server/scripts
    >  dos2unix build_ui.sh
@@ -116,7 +116,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    python __main__.py run --background true
    ```
-   > [!IMPORTANT]  
+   > **IMPORTANT**
    > Please use help command to see all available options you can pass on command line.
 
    ```bash
@@ -145,7 +145,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    dev_config.yaml
    ```
-   > [!NOTE]  
+   >**NOTE** 
    > ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
 
 3. In a custom configuration file, the user should provide new configuration key values or override the existing         configuration.
