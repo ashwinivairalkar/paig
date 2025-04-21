@@ -60,7 +60,7 @@ cd ..
       cd scripts
       bash ./build_ui.sh
       cd ..
-   </details>
+</details>
 4. Go to the backend directory.
    ```bash
    cd backend
