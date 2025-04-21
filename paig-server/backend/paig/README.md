@@ -82,12 +82,12 @@ PAIG provides a platform for AI governance. It allows users to governance and au
 > [!TIP] 
 ><details>
 ><summary>🪟  Windows Activation Instructions</summary>
-> If you are using Windows, run the following command in PowerShell to activate the virtual environment.
+> To activate the virtual environment in PowerShell on Windows, run the following command:
 > 
 >  ```bash
 >    .\venv\Scripts\Activate.ps1
 >  ```
->  For Windows Command Prompt, use the following command
+>  For Windows Command Prompt, run the following command to activate the virtual environment:
 >  ```bash
 >    venv\Scripts\activate
 >  ```   
