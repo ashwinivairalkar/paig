@@ -47,9 +47,6 @@ PAIG provides a platform for AI governance. It allows users to governance and au
  >     cd ..
  > ``` 
  >
- > 
- >
- > ```bash
  >      cd scripts
  >     bash ./build_ui.sh
  >     cd ..
