@@ -36,25 +36,34 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    cd scripts
    source ./build_ui.sh
    ```
- > [!TIP]  
- ><details>
- > <summary>🪟 Click here for a detailed, step-by-step guide for Windows users</summary>
- > Windows doesn’t natively support running .sh files in PowerShell or Command Prompt. To bypass this limitation, use Git Bash to convert the script, and then execute it from PowerShell or Command Prompt. Follow these steps
- >   ```bash
- >
- >     cd paig/paig-server/scripts
- >     dos2unix build_ui.sh
- >     cd ..
- >    ``` 
- >
- > Once the script is converted, open PowerShell or Command Prompt, navigate to the script directory, and run the build with the following command
- >
- >    ```bash
- >      cd scripts
- >     bash ./build_ui.sh
- >     cd ..
- >    ```
- > </details>
+[!TIP]
+> 🪟 **Windows Users:**  
+> Windows doesn’t natively support running `.sh` files in PowerShell or Command Prompt.  
+> Use Git Bash to convert and run the script using the instructions below.
+>
+> <details>
+> <summary>🪟 Click here for a detailed, step-by-step guide for Windows users</summary>
+>
+> To bypass the limitation of `.sh` scripts not running directly in PowerShell or Command Prompt, follow these steps:
+>
+> ### Step 1: Convert the script using Git Bash
+>
+> ```bash
+> cd paig/paig-server/scripts
+> dos2unix build_ui.sh
+> cd ..
+> ```
+>
+> ### Step 2: Run the script from PowerShell or Command Prompt
+>
+> ```bash
+> cd scripts
+> bash ./build_ui.sh
+> cd ..
+> ```
+>
+> </details>
+
 4. Go to the backend directory.
    ```bash
    cd backend
