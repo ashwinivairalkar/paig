@@ -38,7 +38,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```
  > [!TIP]  
  ><details>
-> <summary>💻 Click here for step-by-step Windows instructions</summary>
+> <summary>🪟 Click here for a detailed, step-by-step guide for Windows users</summary>
 > Windows doesn’t natively support running .sh files in PowerShell or Command Prompt. To bypass this limitation, use Git Bash to convert the script, and then execute it from PowerShell or Command Prompt. Follow these steps
  >       ```bash
  >
@@ -75,9 +75,10 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-> [!TIP]  
+> [!TIP] 
+><details>
+><summary>🪟  Windows Activation Instructions</summary>
 > If you are using Windows, run the following command in PowerShell to activate the virtual environment.
-
 > ```bash
 >  .\venv\Scripts\Activate.ps1
 >   ```
