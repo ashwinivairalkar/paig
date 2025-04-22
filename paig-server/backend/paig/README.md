@@ -37,26 +37,26 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source ./build_ui.sh
    ```
 
-> **TIP**
-> <details>
-> <summary>🪟 Click here for a detailed, step-by-step guide for Windows users</summary>
->
-> Windows doesn’t natively support running `.sh` files in PowerShell or Command Prompt. To bypass this limitation, use Git Bash to convert the script, and then execute it from PowerShell or Command Prompt. Follow these steps:
->
-> ```bash
-> cd paig/paig-server/scripts
-> dos2unix build_ui.sh
-> cd ..
-> ```
->
-> Once the script is converted, open PowerShell or Command Prompt, navigate to the script directory, and run the build with the following command:
->
-> ```bash
-> cd scripts
-> bash ./build_ui.sh
-> cd ..
-> ```
-> </details>
+   > **TIP**
+   > <details>
+   > <summary>🪟 Click here for a detailed, step-by-step guide for Windows users</summary>
+   >
+   > Windows doesn’t natively support running `.sh` files in PowerShell or Command Prompt. To bypass this limitation, use Git Bash to convert the script, and then execute it from PowerShell or Command Prompt. Follow these steps:
+   >
+   > ```bash
+   > cd paig/paig-server/scripts
+   > dos2unix build_ui.sh
+   > cd ..
+   > ```
+   >
+   > Once the script is converted, open PowerShell or Command Prompt, navigate to the script directory, and run the build with the following command:
+   >
+   > ```bash
+   > cd scripts
+   > bash ./build_ui.sh
+   > cd ..
+   > ```
+   > </details>
 
 4. Go to the backend directory.
    ```bash
@@ -79,19 +79,19 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-      > **TIP** 
-      ><details>
-      ><summary>🪟  Windows Activation Instructions</summary>
-      > To activate the virtual environment in PowerShell on Windows, run the following command:
-      > 
-      > ```bash
-      >    .\venv\Scripts\Activate.ps1
-      > ```
-      >  For Windows Command Prompt, run the following command to activate the virtual environment:
-      > ```bash
-      >    venv\Scripts\activate
-      > ```   
-      > </details>
+   > **TIP** 
+   ><details>
+   ><summary>🪟  Windows Activation Instructions</summary>
+   > To activate the virtual environment in PowerShell on Windows, run the following command:
+   > 
+   >  ```bash
+   >    .\venv\Scripts\Activate.ps1
+   >  ```
+   >  For Windows Command Prompt, run the following command to activate the virtual environment:
+   >  ```bash
+   >    venv\Scripts\activate
+   >  ```   
+   > </details>
 7. Install the dependencies.
    ```bash
    pip install -r requirements.txt
