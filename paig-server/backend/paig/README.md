@@ -37,7 +37,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source ./build_ui.sh
    ```
 
-> [!TIP]
+> **TIP**
 > <details>
 > <summary>🪟 Click here for a detailed, step-by-step guide for Windows users</summary>
 >
@@ -79,7 +79,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    source venv/bin/activate
    ```
 
-> [!TIP] 
+> **!TIP** 
 ><details>
 ><summary>🪟  Windows Activation Instructions</summary>
 > To activate the virtual environment in PowerShell on Windows, run the following command:
@@ -109,7 +109,7 @@ PAIG provides a platform for AI governance. It allows users to governance and au
    ```bash
    python __main__.py run --paig_deployment dev --config_path conf --host "127.0.0.1" --port 4545 --background true
    ```
-> [!IMPORTANT]  
+> **IMPORTANT** 
 >Admin user credentials.
 
    ```bash
@@ -125,7 +125,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    python __main__.py run --background true
    ```
-> [!IMPORTANT]  
+> **IMPORTANT** 
 > Please use help command to see all available options you can pass on command line.
 
    ```bash
@@ -154,7 +154,7 @@ PAIG can be run in the background mode by setting the background flag to true.
    ```bash
    dev_config.yaml
    ```
-> [!NOTE]  
+> **NOTE**
 > ENVIRONMENT_NAME is also referred to as PAIG_DEPLOYMENT in the application.
 
 3. In a custom configuration file, the user should provide new configuration key values or override the existing         configuration.
